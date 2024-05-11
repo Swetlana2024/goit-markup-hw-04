@@ -321,14 +321,29 @@ color: #434455;
     color: #f4f4fd;
 }
 
-    .text-color-two {
+.text-color-two {
         color: #f4f4fd;
     }
 .page-logo-two {
     display: inline-block;
     margin-bottom: 16px;
 }
- 
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #4D5AE5; 
+    fill: #F4F4FD;
     
+
+}
     
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+}    
   
