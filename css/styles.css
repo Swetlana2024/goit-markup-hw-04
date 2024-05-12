@@ -205,6 +205,11 @@ address {font-style: normal;
     width: calc((100% - 72px) / 4);
     margin-right: 24px;
 }
+ .lead-link {
+    width: 64px;
+    height: 64px;
+    background-color: #ffffff; 
+ }
  .lead:last-child {
     margin-right: 0;
  }
@@ -255,6 +260,11 @@ address {font-style: normal;
 
 .page-menu {
     display: flex;
+}
+.page-social-icon {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
 }
 
 .menu-list {
@@ -332,8 +342,8 @@ color: #434455;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5; 
     fill: #F4F4FD;
