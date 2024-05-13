@@ -367,9 +367,7 @@ color: #434455;
     background-color: #2e2f42;
     
 }
-.container {
-    margin-right: 120px;
-}
+.container 
 .social-text {
     font-weight: 500;
     font-size: 16px;
@@ -378,9 +376,14 @@ color: #434455;
     margin-bottom: 16px;
     color: #FFFFFF;
 }
+.container-logo {
+    margin-right: 120px;  
+}nm
+
 .content-container {
     display: flex;
     align-items: baseline;
+    
 }
 .footer-lead {
     max-width: 264px;
