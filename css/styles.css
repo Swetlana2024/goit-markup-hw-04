@@ -310,7 +310,7 @@ address {font-style: normal;
 .page-social-icon {
     display: flex;
     justify-content: center;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .menu-list {
