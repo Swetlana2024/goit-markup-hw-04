@@ -258,6 +258,7 @@ address {font-style: normal;
         align-items: center; 
         justify-content:  center;
         display: flex;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     }  
     
     .social-list-link-icon:hover,
@@ -280,10 +281,12 @@ address {font-style: normal;
 }
 .product:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
     
 }
 .product {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .product-overlay {
     position: relative;
@@ -306,7 +309,7 @@ address {font-style: normal;
     color: #f4f4fd;
 }
 .product-text:hover {
-    transform: translateY(0%);
+    
 }
 .page-menu-list {
     display: flex;
@@ -320,6 +323,7 @@ address {font-style: normal;
 .social-link {
     width: 40;
     height: 40;
+    
 }
 .page-menu {
     display: flex;
